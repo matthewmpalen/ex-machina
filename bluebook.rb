@@ -5,7 +5,6 @@ def sieve(n)
   x = [1] * n
   x[1] = 0
    
-  #for i in range(2, n/2):
   (2...n/2).each do |i|
     j = 2 * i
 
