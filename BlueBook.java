@@ -39,7 +39,9 @@ class BlueBook {
     }
 
     public static void main(String[] args) {
+        // Compute BlueBook unlock code
         int[] x = sieve(10000);
+
         int[] code = new int[] {1206, 301, 384, 5};
         int[] key = new int[] {1, 1, 2, 2};
 
